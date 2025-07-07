@@ -4,18 +4,20 @@
     <head>
         <meta charset="utf-8">
         <title>The Apple Heads</title>
-        <!-- <link rel="stylesheet" href="./css/styles.css"> -->
+        <link rel="stylesheet" href="./css/styles.css">
     </head>
 
     <body>
         <!-- Header and logo -->
         <header class="header">
-            <img src="#" alt="header logo">
-            <ul>
-                <li>header link one</li>
-                <li>header link two</li>
-                <li>header link three</li>
-            </ul>
+            <div class="header-inner">
+                <img src="#" alt="header logo">
+                <ul>
+                    <li>header link one</li>
+                    <li>header link two</li>
+                    <li>header link three</li>
+                </ul>
+            </div>
         </header>
 
         <!-- Panel rows in between header and footer 
@@ -23,47 +25,74 @@
         <div class="main-panel">
 
             <!-- This website .. -->
-            <div class="panel-1">
-                <div class="header-left">
-                    <h1>This website is awesome</h1>
-                    <p>This website has some subtext ...</p>
-                    <button>Sign Up</button>
+            <section class="panel-1">
+                <div class="panel-1-inner">
+                    <div class="header-left">
+                        <h1>This website is awesome</h1>
+                        <p>This website has some subtext ...</p>
+                        <button>Sign Up</button>
+                    </div>
+                    <div class="header-right">
+                        <img src="#" alt="Image demonstrating website contents">
+                    </div>
                 </div>
-                <div class="header-right">
-                    <img src="#" alt="Image demonstrating website contents">
-                </div>
-            </div>
+            </section>
 
             <!-- Some random .. -->
-            <div class="panel-2">
-                <h2>Some random information</h2>
-                <div class="p2-card-row">
-                    
-                    <div class="p2-card">
-                        <div class="p2-card-inner"></div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                            Dignissimos, quod deleniti, fugiat natus rerum repellat eius 
-                            tempora odit, minus nemo quas ex fugit deserunt eligendi doloremque fuga magnam dolores vel!</p>
+            <section class="panel-2">
+                <div class="panel-2-inner">
+                    <h2>Some random information</h2>
+                    <div class="p2-card-row">
+                        
+                        <div class="p2-card">
+                            <div class="p2-card-inner"></div>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                Dignissimos, quod deleniti, fugiat natus rerum repellat eius 
+                                tempora odit, minus nemo quas ex fugit deserunt eligendi doloremque fuga magnam dolores vel!</p>
+                        </div>
+                        <div class="p2-card">
+                            <div class="p2-card-inner"></div>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                Dignissimos, quod deleniti, fugiat natus rerum repellat eius 
+                                tempora odit, minus nemo quas ex fugit deserunt eligendi doloremque fuga magnam dolores vel!</p>
+                        </div>
+                        <div class="p2-card">
+                            <div class="p2-card-inner"></div>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                Dignissimos, quod deleniti, fugiat natus rerum repellat eius 
+                                tempora odit, minus nemo quas ex fugit deserunt eligendi doloremque fuga magnam dolores vel!</p>
+                        </div>
+                        <div class="p2-card">
+                            <div class="p2-card-inner"></div>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                Dignissimos, quod deleniti, fugiat natus rerum repellat eius 
+                                tempora odit, minus nemo quas ex fugit deserunt eligendi doloremque fuga magnam dolores vel!</p>
+                        </div>
                     </div>
-                    <div class="p2-card">Card Two</div>
-                    <div class="p2-card">Card Three</div>
-                    <div class="p2-card">Card Four</div>
                 </div>
-            </div>
+            </section>
 
             <!-- This is an inspiring .. -->
-            <div class="panel-3">
-                This is an inspiring
-            </div>
+            <section class="panel-3">
+                <div class="panel-3-inner">
+                    This is an inspiring
+                </div>
+            </section>
 
             <!-- Call to action .. -->
-            <div class="panel-4">
-                Call to action
-            </div>
+            <section class="panel-4">
+                <div class="panel-4-inner">
+                    Call to action
+                </div>
+            </section>
 
         </div>
 
         <!-- Footer and copyright -->
-        <footer class="footer">Copyright &copy; The Odin Project 2025</footer>
+        <footer class="footer">
+            <div class="footer-inner">
+                Copyright &copy; The Odin Project 2025
+            </div>
+        </footer>
     </body>
 </html>

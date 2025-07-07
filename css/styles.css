@@ -6,93 +6,111 @@
     margin: 0 auto;
     font-family: Roboto;
 }
-
 body {
-    /* max-width: 800px; */
-    margin: 0 auto;
-
     display: flex;
     flex-direction: column;
 
-    justify-content: stretch;
+    /* justify-content: stretch; */
     align-items: stretch;
+}
+.footer-inner, .header-inner, .panel-1-inner, 
+.panel-2-inner, .panel-3-inner, .panel-4-inner {
+    width: 80%;
+    max-width: 800px;
+}
+header, footer, .main-panel {
+    width:100%;
+}
+header, footer, .panel-1 {
+    background-color: #1f2937;
 }
 
 /* HEADER styles
 */
-.header > ul {
-    list-style: none;
-    padding-left : 0;
+.header-inner > ul, .footer-inner {
     display: flex;
     gap: 12px;
 
     font-size: 18px;
     color: #e5e7eb;
 }
-
-.header > img {
+.header-inner > ul {
+    list-style: none;
+    padding-left : 0;
+}
+.header-inner > img {
     font-size: 24px;
     color: #f9faf8;
     font-weight: bold;
 }
-
-.header {
+.header-inner {
     display:flex;
     justify-content: space-between;
-    background-color: #1f2937;
 }
+
 
 /* FOOTER styles
 */
-footer >  {
+.footer-inner {
     margin: 0 auto;
     justify-content: space-around;
-    background-color: #1f2937;
 }
 
 /* MAIN PANEL styles
 */
-.main-panel {
-    width: 800px;
-    justify-content: center;
-    align-items: center;
+.main-panel-inner {
+    /* justify-content: center;
+    align-items: center; */
 }
 
-.main-panel > div {
+.main-panel-inner > div {
     height:250px;
 }
 
 /* PANEL ONE 
 */
-.panel-1 {
+.panel-1-inner {
     display: flex;
-    background-color: #1f2937;
-
 }
 
+/* PANEL TWO 
+*/
 .panel-2 {
     display:flex;
     flex-direction: column;
 }
-
-.panel > h2 {
+.panel-2-inner > h2 {
     font-weight: bolder;
 }
-
 .p2-card-row {
     display: flex;
 }
-
 .p2-card {
     margin: 40px 20px;
     width: 50px;
 }
-
 .p2-card > p {
     margin: 0 auto;
 }
-
 .p2-card-inner {
     border: 3px solid rgb(50, 114, 253);
     padding: 50px;
+    border-radius: 8px;
+}
+
+/* PANEL THREE 
+*/
+.panel-3 {
+    background-color: #e5e7eb;
+}
+.panel-3-inner {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+/* PANEL FOUR
+*/
+.panel-4-inner {
+    background-color: #3882f6;
 }
