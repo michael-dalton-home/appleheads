@@ -10,12 +10,6 @@ body {
     display: flex;
     flex-direction: column;
 }
-header, footer {
-
-    /* justify-content: stretch;
-    align-items: stretch;
-    padding: 4px 0; */
-}
 .footer-inner, .header-inner, .panel-1-inner, 
 .panel-2-inner, .panel-3-inner, .panel-4-inner {
     width: 80%;
@@ -44,28 +38,26 @@ header, footer, .panel-1 {
     font-size: 18px;
     color: #e5e7eb;
 }
-.header-inner > ul {
-    list-style: none;
-    padding : 0;
-    margin: 0;
-}
-.header-inner > h1 {
-    font-size: 24px;
-    color: #f9faf8;
-    font-weight: bold;
-    font-style: italic;
-    padding : 0;
-    margin: 0;
-}
 .header-inner {
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px;
-}
-.header-inner-left {
-}
+    padding: 12px 0;
 
+    > ul {
+        list-style: none;
+        padding : 0;
+        margin: 0;
+    }
+    > h1 {
+        font-size: 24px;
+        color: #f9faf8;
+        font-weight: bold;
+        font-style: italic;
+        padding : 0;
+        margin: 0;
+    }
+}
 
 /* FOOTER styles
 */
@@ -78,14 +70,6 @@ header, footer, .panel-1 {
 
 /* MAIN PANEL styles
 */
-.main-panel-inner {
-    /* justify-content: center;
-    align-items: center; */
-}
-
-.main-panel-inner > div {
-    /* height:250px; */
-}
 
 /* PANEL ONE 
 */
@@ -102,25 +86,27 @@ header, footer, .panel-1 {
     align-items:center;
     justify-content: center;
 }
-.p1-inner-left > h1 {
-    font-size: 48px;
-    color: #f9faf8;
-    font-weight: 900;
-}
-.p1-inner-left > p {
-    font-size: 18px;
-    color: #e5e7eb;
+.p1-inner-left {
+    > h1 {
+        font-size: 48px;
+        color: #f9faf8;
+        font-weight: 900;
+    }
+    > p {
+        font-size: 18px;
+        color: #e5e7eb;
+    }
+    > button {
+        padding: 4px 10px;
+        margin: 0;
+        border-radius: 8px;
+        background-color: #3882f6;
+        color: #f9faf8;
+    }
 }
 .p1-inner-left, .p1-inner-right {
     flex: 1;
     gap: 10px;
-}
-.p1-inner-left > button {
-    padding: 4px 10px;
-    margin: 0;
-    border-radius: 8px;
-    background-color: #3882f6;
-    color: #f9faf8;
 }
 .p1-inner-right > img {
     width:400px;
