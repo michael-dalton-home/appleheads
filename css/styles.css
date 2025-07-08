@@ -22,9 +22,6 @@ header, footer, .main-panel {
 header, footer, .panel-1 {
     background-color: #1f2937;
 }
-.panel-1-inner, .panel-2-inner, .panel-3-inner, .panel-4-inner {
-    min-height: 25vh;
-}
 .panel-1, .panel-2, .panel-3, .panel-4 {
     padding: 60px 0px;
     padding-bottom: 85px;
@@ -188,6 +185,21 @@ header, footer, .panel-1 {
 
 /* PANEL FOUR
 */
-.panel-4-inner {
+.p4-row {
     background-color: #3882f6;
+    display: flex;
+    padding: 40px;
+    border-radius: 8px;
+    color: #f9faf8;
+    justify-content: center;
+    align-items: center;
+
+    > .p4-right  button {
+        padding: 4px 24px;
+        margin: 0;
+        border-radius: 8px;
+        background-color: #3882f6;
+        color: #f9faf8;
+        border: 2px solid #f9faf8;
+    }
 }
