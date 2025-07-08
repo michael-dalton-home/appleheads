@@ -25,7 +25,7 @@ header, footer, .panel-1 {
 .panel-1-inner, .panel-2-inner, .panel-3-inner, .panel-4-inner {
     min-height: 25vh;
 }
-.panel-1, .panel-2, .panel-3 {
+.panel-1, .panel-2, .panel-3, .panel-4 {
     padding: 60px 0px;
     padding-bottom: 85px;
 }
@@ -171,16 +171,18 @@ header, footer, .panel-1 {
 }
 .panel-3-inner {
     font-size: 36px;
-    font-style: italic;
     color: #1f2937;
 
     > .p3-quoted-text {
-        margin: 40px auto;
+        font-style: italic;
+        font-weight: 100;
         width: 80%;
-        max-width: 80%;
     }
-    > .p3-quote-owner {
-
+    > .p3-quoted-owner {
+        width: 80%;
+        font-size: 18px;
+        text-align: right;
+        font-weight: 600;
     }
 }
 
