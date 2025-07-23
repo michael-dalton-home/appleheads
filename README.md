@@ -7,3 +7,4 @@ Page design specified in LandingPage*.png, supplied by Odin Project
 (https://www.theodinproject.com/lessons/foundations-landing-page)
 
 Roughly 15 hours to build
+2.5hrs implement expanded text toggle
